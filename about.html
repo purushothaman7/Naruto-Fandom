@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+  
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+}
+.about-us{
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+  background: linear-gradient(#ff8000, #9e4512);
+
+}
+.pic{
+  height: auto;
+  width:  302px;
+border-radius: 9%;
+}
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text{
+  width: 540px;
+}
+.text h2{
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+.text h2 {
+  box-shadow: inset 0 0 0 0 #000000;
+  color: #000000;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.text h2:hover {
+  box-shadow: inset 440px 0 0 0 #ffffff;
+  color: rgb(255, 132, 0);
+}
+.text h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.data{
+  margin-top: 30px;
+}
+.hire{
+  font-size: 18px;
+  background: rgb(0, 0, 0);
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.hire:hover{
+  color: orange;
+  background: #ffffff;
+  border: 1px solid orange;
+}
+.container {
+  position: relative;
+  width: 36%;
+  text-decoration: none;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+.middle {
+
+  opacity: 0;
+  position: absolute;
+  
+  top: 78%;
+  left: 15%;
+
+}
+.text1 {
+  text-decoration: none;
+  background-color: #ff8800;
+  text-align:center ;
+  color: white;
+  font-size: 16px;
+border-radius: 4px;
+  padding-right: 177px;
+
+  text-align: justify;
+}
+
+</style>
+<body>
+    <section class="about-us">
+        <div class="about">
+          <div class="container">
+
+
+          <img src="./purushoth_uzumaki-20230413-0001.jpg" class="pic">
+          <div class="middle">
+            <i class="fa fa-instagram" style="font-size:36px;color:orange"></i>
+            <div class="text1 container" ><a style="color: white;" style="text-decoration: none;" href="https://www.instagram.com/purushoth_uzumaki/">@Purushoth_Uzumaki</a></div>
+          </div>
+        </div>
+          <div class="text">
+            <h2>About Me</h2>
+            <h5><b>Front-end Developer & <span style="color: white;"> Designer</span></b> </h5>
+              <p>
+                I am Purushoth Currently Pursuing my Computer Science and Engineering Degree at REC,Chennai.
+              </p>
+            <div class="data">
+            <a href="https://www.linkedin.com/in/purushothaman-m-b4ba9122b/" class="hire">Hire Me</a>
+            <a href="./project.php" class="hire">Back to Site</a>
+
+            </div>
+            </div>
+        </div>
+      </section>
+
+
+      
+      </div>
+</body>
+</html>
